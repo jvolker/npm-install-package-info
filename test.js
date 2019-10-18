@@ -1,4 +1,4 @@
-var packageInfo = require('./index')
+const packageInfo = require('./index')
 
 console.log(packageInfo('debug')) // just NPM name
 console.log(packageInfo('debug@^2')) // semantic version 2.x.x

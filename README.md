@@ -4,12 +4,12 @@ This Node module returns the name and version of an NPM package of any source `n
 
 ## Install
 
-`npm install --save npm-install-package-info#
+`npm install --save npm-install-package-info`
 
 ## Usage
 
 ```
-var packageInfo = require('npm-install-package-info')
+const packageInfo = require('npm-install-package-info')
 
 packageInfo('debug') // { name: 'debug', version: '4.1.1' }
 packageInfo('debug@^2') // { name: 'debug', version: '2.6.9' }
