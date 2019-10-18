@@ -34,3 +34,7 @@ Manually tested with the following NPM versions:
 - 6.9.0
 - 5.6.0
 - 3.10.10
+
+## Why?
+
+`npm view` doesn't support the same amount of sources.
