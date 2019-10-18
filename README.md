@@ -2,11 +2,11 @@
 
 This Node module returns the name and version of an NPM package of any source `npm install` can handle (including Git-Host, Github, Tarball files/URLs, scoped packages etc.). It synchronously performs a dry-run of `npm install` and grabs the info from stdout.
 
-# Install
+## Install
 
-`npm install --save npm-install-package-info`
+`npm install --save npm-install-package-info#
 
-# Usage
+## Usage
 
 ```
 var packageInfo = require('npm-install-package-info')
@@ -28,7 +28,7 @@ To disable error messages there is a second optional parameter:
 packageInfo('/Users/Erik/Documents/MyProject', true)
 ```
 
-# Tested
+## Tested
 
 Manually tested with the following NPM versions: 
 - 6.9.0
